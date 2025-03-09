@@ -7,8 +7,6 @@
 
 import Foundation
 
-import Foundation
-
 class FileMonitor {
     private var eventStream: FSEventStreamRef?
     private let monitoredPath: String
