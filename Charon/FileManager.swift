@@ -2,7 +2,7 @@
 //  FileManager.swift
 //  Charon
 //
-//  Created by Zachary Bonner on 3/3/25.
+//  Created by Zachary Bonner on 3/8/25.
 //
 
 import Foundation
@@ -36,7 +36,6 @@ class FileMonitor {
             
             let fileMonitor = Unmanaged<FileMonitor>.fromOpaque(clientCallBackInfo!).takeUnretainedValue()
             for path in paths {
-                // 🚀 Ignore directory events
                 var isDirectory: ObjCBool = false
                 if FileManager.default.fileExists(atPath: path, isDirectory: &isDirectory), isDirectory.boolValue {
                     print("📂 Ignoring directory change: \(path)")

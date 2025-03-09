@@ -6,7 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		360785E42D7D0F8B009BBDED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 367C282E2D765AB7000B18DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 367C28352D765AB7000B18DA;
+			remoteInfo = Charon;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		360785E02D7D0F8B009BBDED /* CharonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		367C28362D765AB7000B18DA /* Charon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Charon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -21,6 +32,11 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		360785E12D7D0F8B009BBDED /* CharonTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CharonTests;
+			sourceTree = "<group>";
+		};
 		367C28382D765AB7000B18DA /* Charon */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -32,6 +48,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		360785DD2D7D0F8B009BBDED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		367C28332D765AB7000B18DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -46,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				367C28382D765AB7000B18DA /* Charon */,
+				360785E12D7D0F8B009BBDED /* CharonTests */,
 				367C28372D765AB7000B18DA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				367C28362D765AB7000B18DA /* Charon.app */,
+				360785E02D7D0F8B009BBDED /* CharonTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,6 +86,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		360785DF2D7D0F8B009BBDED /* CharonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 360785E62D7D0F8B009BBDED /* Build configuration list for PBXNativeTarget "CharonTests" */;
+			buildPhases = (
+				360785DC2D7D0F8B009BBDED /* Sources */,
+				360785DD2D7D0F8B009BBDED /* Frameworks */,
+				360785DE2D7D0F8B009BBDED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				360785E52D7D0F8B009BBDED /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				360785E12D7D0F8B009BBDED /* CharonTests */,
+			);
+			name = CharonTests;
+			packageProductDependencies = (
+			);
+			productName = CharonTests;
+			productReference = 360785E02D7D0F8B009BBDED /* CharonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		367C28352D765AB7000B18DA /* Charon */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 367C28452D765AB8000B18DA /* Build configuration list for PBXNativeTarget "Charon" */;
@@ -93,6 +141,10 @@
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
+					360785DF2D7D0F8B009BBDED = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 367C28352D765AB7000B18DA;
+					};
 					367C28352D765AB7000B18DA = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -113,11 +165,19 @@
 			projectRoot = "";
 			targets = (
 				367C28352D765AB7000B18DA /* Charon */,
+				360785DF2D7D0F8B009BBDED /* CharonTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		360785DE2D7D0F8B009BBDED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		367C28342D765AB7000B18DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,6 +188,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		360785DC2D7D0F8B009BBDED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		367C28322D765AB7000B18DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -137,7 +204,49 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		360785E52D7D0F8B009BBDED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 367C28352D765AB7000B18DA /* Charon */;
+			targetProxy = 360785E42D7D0F8B009BBDED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		360785E72D7D0F8B009BBDED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M9R94CSRBB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BonnStrat.CharonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Charon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Charon";
+			};
+			name = Debug;
+		};
+		360785E82D7D0F8B009BBDED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M9R94CSRBB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BonnStrat.CharonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Charon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Charon";
+			};
+			name = Release;
+		};
 		367C28432D765AB8000B18DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -262,10 +371,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Charon/Charon.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Charon/Preview Content\"";
 				DEVELOPMENT_TEAM = M9R94CSRBB;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -294,10 +402,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Charon/Charon.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Charon/Preview Content\"";
 				DEVELOPMENT_TEAM = M9R94CSRBB;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -323,6 +430,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		360785E62D7D0F8B009BBDED /* Build configuration list for PBXNativeTarget "CharonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360785E72D7D0F8B009BBDED /* Debug */,
+				360785E82D7D0F8B009BBDED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		367C28312D765AB7000B18DA /* Build configuration list for PBXProject "Charon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
