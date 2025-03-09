@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		36D678A12D7D249500A1D9B7 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 36D678A02D7D249500A1D9B7 /* LICENSE.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		360785E42D7D0F8B009BBDED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -19,6 +23,7 @@
 /* Begin PBXFileReference section */
 		360785E02D7D0F8B009BBDED /* CharonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		367C28362D765AB7000B18DA /* Charon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Charon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D678A02D7D249500A1D9B7 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -68,6 +73,7 @@
 		367C282D2D765AB7000B18DA = {
 			isa = PBXGroup;
 			children = (
+				36D678A02D7D249500A1D9B7 /* LICENSE.md */,
 				367C28382D765AB7000B18DA /* Charon */,
 				360785E12D7D0F8B009BBDED /* CharonTests */,
 				367C28372D765AB7000B18DA /* Products */,
@@ -182,6 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36D678A12D7D249500A1D9B7 /* LICENSE.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
